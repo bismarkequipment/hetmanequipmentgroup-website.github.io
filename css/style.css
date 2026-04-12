@@ -2675,6 +2675,48 @@ a:focus, a:hover, .btn:focus, .btn:hover, button:focus, button:hover {
     padding-top: 10px;
   }
 }
+
+.right-side-link {
+    position: ;
+    right: 20px;
+    top: 40%;
+    background: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+    z-index: 9999;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.25);
+}
+
+
+.right-side-link:hover {
+    background: #0056b3;
+}
+
+.right-page-link {
+    text-align: right;
+    padding-right: 20px;
+    margin-top: 20px;
+}
+/*.oil-grease-right {*/
+ /*    position: fixed; */
+  /* right: 100px;      /* distance from right edge of browser */
+  /*  top: 377px;       /* vertical position – adjust as needed */
+  /*  width: 500px;     /* adjust to fit your content */
+   /* z-index: 1000; } */
+   .oil-grease-right {
+    float: right;
+    text-align: right;
+}
+
+.oil-grease-align-right {
+    position: absolute;
+    right: 40px; /* distance from right edge of page */
+    top: 0;      /* aligns with the top of the BITS block */
+    width: 350px;
+}
 /*--------------------------------------------------*/
 
 /*# sourceMappingURL=style.css.map */
